@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Front Page feature.
+ */
+
+include_once 'dvcac_front_page.features.inc';

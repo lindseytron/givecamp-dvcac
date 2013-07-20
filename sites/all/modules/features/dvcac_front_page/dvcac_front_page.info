@@ -1,0 +1,11 @@
+name = DVCAC Front Page
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = delta
+features[context][] = front-page
+features[ctools][] = context:context:3
+features[ctools][] = delta:delta:3
+features[delta][] = home_template
+features[features_api][] = api:2
