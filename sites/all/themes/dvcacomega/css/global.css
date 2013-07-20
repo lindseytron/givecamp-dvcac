@@ -89,7 +89,22 @@ h5, h6 {
 .color-5 { background: rgb(84, 204, 156); }
 .color-6 { background: rgb(82, 178, 140); }
 
+/*************** Escape ******************/
 
+#block-block-2 {
+	position: fixed;
+	top: 50%;
+	right: -17px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	background: #000;
+	margin: 0;
+}
+	#block-block-2 .content a {
+		color: #fff;
+		padding: 10px;
+		display: block;
+	}
 
 /*************** Masthead ******************/
 
@@ -105,35 +120,35 @@ h5, h6 {
   float: left;
 }*/
 
-header {
+.zone-user-wrapper {
 	background: #f6f6f6;
 }
 
-ul.menu  { 
-  margin: 0;
-  border-right: 1px solid #ddd;
+.zone-user-wrapper ul.menu  { 
+	margin: 0;
+	border-right: 1px solid #ddd;
 }
 
-ul.menu li {
-  list-style: none;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+.zone-user-wrapper ul.menu li {
+	list-style: none;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 
-.menu a {
-  display: block;
-  line-height: 9em;
-  padding: 0 40px;
-  border-left: 1px solid #ddd;
-  font-weight: bold;
-  font-size: 1em;
-  color: #000;
+.zone-user-wrapper .menu a {
+	display: block;
+	line-height: 9em;
+	padding: 0 40px;
+	border-left: 1px solid #ddd;
+	font-weight: normal;
+	font-size: 1em;
+	color: #000;
 }
 
-.menu a:hover {
-  background: rgb(80, 145, 205);
-  color: white;
+.zone-user-wrapper .menu a:hover {
+	background: rgb(80, 145, 205);
+	color: white;
 }
