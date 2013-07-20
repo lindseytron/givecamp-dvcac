@@ -1,3 +1,73 @@
 /* This file will hold styles that are loaded using the same media query as the normal grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+
+ /*************** Escape ******************/
+
+#block-block-2 {
+	position: fixed;
+	top: 50%;
+	right: -17px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	background: #000;
+	margin: 0;
+}
+	#block-block-2 .content a {
+		color: #fff;
+		padding: 10px;
+		display: block;
+	}
+
+/*************** Masthead ******************/
+
+/*.site-name { 
+  display: block;
+  width: 20%;
+  background: url('../images/DVCAC_Logo_cmyk.png');
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  direction: rtl;
+  text-indent: 10000px;
+  float: left;
+}*/
+
+.zone-user-wrapper {
+	background: #f6f6f6;
+}
+
+.logo-img { margin: 0; }
+.logo-img img { 
+	max-width: 100%;
+	margin-top: 10px;
+}
+
+.zone-user-wrapper ul.menu  { 
+	margin: 0;
+	border-right: 1px solid #ddd;
+}
+
+.zone-user-wrapper ul.menu li {
+	list-style: none;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.zone-user-wrapper .menu a {
+	display: block;
+	line-height: 9em;
+	padding: 0 40px;
+	border-left: 1px solid #ddd;
+	font-weight: normal;
+	font-size: 1em;
+	color: #000;
+}
+
+.zone-user-wrapper .menu a:hover {
+	background: rgb(80, 145, 205);
+	color: white;
+}
