@@ -1,5 +1,5 @@
-name = dvcacomega from Omega HTML5 Starterkit
-description = Omega theme for dvcac
+name = DVCAC
+description = Omega-based theme for Domestic Violence & Child Advocacy Center.
 core = 7.x
 engine = phptemplate
 screenshot = screenshot.png
