@@ -22,7 +22,7 @@
 
 /*************** Masthead ******************/
 
-/*.site-name { 
+/*.site-name {
   display: block;
   width: 20%;
   background: url('../images/DVCAC_Logo_cmyk.png');
@@ -39,12 +39,12 @@
 }
 
 .logo-img { margin: 0; }
-.logo-img img { 
-	max-width: 100%;
+.logo-img img {
+	width: 100%;
 	margin-top: 10px;
 }
 
-.zone-user-wrapper ul.menu  { 
+.zone-user-wrapper ul.menu  {
 	margin: 0;
 	border-right: 1px solid #ddd;
 }
@@ -82,7 +82,7 @@
 	margin: 0 2%;
 	text-align: center;
 }
-	#block-boxes-upper-help-box h2 { 
+	#block-boxes-upper-help-box h2 {
 		color: #000;
 		margin: 0;
 		font-size: 1.3em;
