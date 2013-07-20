@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Social Media feature.
+ */
+
+include_once 'dvcac_social_media.features.inc';
