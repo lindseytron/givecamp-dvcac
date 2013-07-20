@@ -1,0 +1,17 @@
+name = DVCAC Program Updates
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+dependencies[] = text
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_instance][] = node-program_update-body
+features[node][] = program_update
+features[variable][] = node_options_program_update
+features[variable][] = node_preview_program_update
+features[variable][] = node_submitted_program_update
+project path = sites/all/modules/features
