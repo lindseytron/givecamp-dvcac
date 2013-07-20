@@ -10,7 +10,8 @@ body, input, textarea, button, form, select {
   color: #444;
 }
 
-a, a:link, a:visited { 
+a, a:link, a:visited {
+a, a:link, a:visited {
   text-decoration: none;
   color: rgb(80, 145, 205);
   font-weight: bold;
@@ -65,7 +66,7 @@ h4 {
     margin: .666666em 0;
 }
 
-h5, h6 { 
+h5, h6 {
     font-size: 1em;
     line-height: 1.5;
     margin: .75em 0;
@@ -89,4 +90,158 @@ h5, h6 {
 .color-5 { background: rgb(84, 204, 156); }
 .color-6 { background: rgb(82, 178, 140); }
 
+/*************** Forms ******************/
 
+input, textarea {
+  /* Use for styling text based form elements, like name, email, password.
+  Button/submit specific styles below, those will override */
+  display: block;
+  padding: .5em;
+  margin-bottom: .75em;
+  border: .25em solid #eee;
+  width: 100%;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+  resize: none;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: deepskyblue;
+}
+
+input[type='button'], input[type='submit'], button, .button {
+  border: none;
+  background: transparent;
+  line-height: 1;
+  cursor: pointer;
+
+  background: rgb(82, 178, 140);
+  padding: 1em 1.5em;
+  border: .25em solid hsla(0,0%,0%,.1);
+  color: white;
+
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+
+  display: block;
+  margin-bottom: .75rem;
+}
+
+input[type='button']:hover, input[type='submit']:hover, button:hover, .button:hover {
+  box-shadow: inset 0 0 10em hsla(0, 0%, 0%, .1);
+  border-color: hsla(0,0%,100%,.1);
+}
+
+input[type='button']:focus, input[type='submit']:focus, button:focus, .button:focus,
+input[type='button']:active, input[type='submit']:active, button:active, .button:active {
+  box-shadow: inset 0 0 10em hsla(0, 0%, 0%, .2);
+}
+
+.btn-primary {
+  font-size: 1.125em;
+}
+
+.btn-secondary {
+  background: rgb(80, 145, 205);
+}
+
+.btn-tertiary {
+  font-size: .875em;
+  background: rgb(185, 185, 185);
+}
+
+/*************** Masthead ******************/
+
+/*.site-name {
+  display: block;
+  width: 20%;
+  background: url('../images/DVCAC_Logo_cmyk.png');
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  direction: rtl;
+  text-indent: 10000px;
+  float: left;
+}*/
+
+header {
+	background: #f6f6f6;
+}
+
+ul.menu  {
+  margin: 0;
+  border-right: 1px solid #ddd;
+}
+
+ul.menu li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.menu a {
+  display: block;
+  line-height: 9em;
+  padding: 0 40px;
+  border-left: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1em;
+  color: #000;
+}
+
+.menu a:hover {
+  background: rgb(80, 145, 205);
+  color: white;
+}
+/*************** Layout  ******************/
+#region-sidebar-second {
+  background-color: #f6f6f6;
+}
+#region-sidebar-second h2.block-title {
+  background-color: #DFE0E0;
+  padding: 15px;
+}
+#region-sidebar-second .content .views-row {
+  border-bottom: 1px solid #DFE0E0;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+#region-sidebar-second .content .views-field-title {
+  font-size:115%;
+}
+#region-sidebar-second .content .views-field-title a {
+  padding:5px 15px;
+  display:block;
+}
+#region-sidebar-second .content .views-field-title,
+#region-sidebar-second .content .views-field-title a {
+  color: #444;
+  font-weight: bold;
+}
+#region-sidebar-second .content .views-field-title a:hover,
+#region-sidebar-second .content .views-field-title a:focus {
+  background-color:#54CC9C;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+#region-sidebar-second .content .views-field-body,
+#region-sidebar-second .content .views-field-field-event-date {
+  padding:0 15px;
+}
