@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC News feature.
+ */
+
+include_once 'dvcac_news.features.inc';
