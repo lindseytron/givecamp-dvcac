@@ -88,7 +88,7 @@
 		font-size: 1.3em;
 	}
 	#block-boxes-upper-help-box h5 {
-		margin: .5em 0 0;
+		margin: 1em 0 0;
 		color: #8F8F8F;
 		font-size: .7em;
 		font-weight: normal;
@@ -96,32 +96,8 @@
 		line-height: .95em;
 	}
     #block-boxes-upper-help-box .button {
-      margin: .5em auto;
+      margin: .75em auto;
       padding: .6em 3em;
       text-transform: uppercase;
       font-weight: bold;
     }
-#zone-menu-wrapper {
-  background-color:#5091CD;
-}
-  #zone-menu-wrapper ul.menu {
-    margin: 0;
-    list-style-type: none;
-    border-left: 1px solid rgba(255, 255, 255, .3);
-  }
-    #zone-menu-wrapper ul.menu li {
-      display: block;
-      float: left;
-    }
-      #zone-menu-wrapper ul.menu li a {
-        padding: .5em 3.85em;
-        color: #fff;
-        display: block;
-        border-bottom: 0 solid;
-        border-right: 1px solid rgba(255, 255, 255, .3);
-      }
-      #zone-menu-wrapper ul.menu li a:hover,
-      #zone-menu-wrapper ul.menu li a:focus {
-        border-bottom: 0 solid;
-        background: rgba(255, 255, 255, .3);
-      }
