@@ -88,12 +88,13 @@
 		font-size: 1.3em;
 	}
 	#block-boxes-upper-help-box h5 {
-		margin: 1em 0 0;
+		margin: .65em 0 .1em;
 		color: #8F8F8F;
-		font-size: .7em;
+		font-size: .9em;
 		font-weight: normal;
 		letter-spacing: .01em;
 		line-height: .95em;
+		text-transform: none;
 	}
     #block-boxes-upper-help-box .button {
       margin: .75em auto;
