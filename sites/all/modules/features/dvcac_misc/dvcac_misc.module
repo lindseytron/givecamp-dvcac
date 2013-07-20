@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Misc feature.
+ */
+
+include_once 'dvcac_misc.features.inc';
