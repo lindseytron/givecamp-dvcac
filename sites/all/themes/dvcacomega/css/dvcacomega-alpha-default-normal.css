@@ -68,9 +68,18 @@
 	color: #000;
 }
 
-.zone-user-wrapper .menu a:hover {
-	background: rgb(80, 145, 205);
+.zone-user-wrapper .menu a:hover,
+.zone-user-wrapper .menu a:focus {
+	background: rgb(130, 75, 147);
 	color: white;
+}
+.zone-user-wrapper .menu .first a:hover,
+.zone-user-wrapper .menu .first a:focus {
+  background-color:rgb(80, 145, 205);
+}
+.zone-user-wrapper .menu .last a:hover,
+.zone-user-wrapper .menu .last a:focus {
+  background-color:rgb(185, 185, 185);
 }
 
 #block-menu-menu-help-action-menu {
