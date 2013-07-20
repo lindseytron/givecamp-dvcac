@@ -81,7 +81,6 @@
 .zone-user-wrapper .menu .last a:focus {
   background-color:rgb(185, 185, 185);
 }
-
 #block-menu-menu-help-action-menu {
 	float: left;
 }
@@ -122,13 +121,18 @@
     #zone-menu-wrapper ul.menu li {
       display: block;
       float: left;
+      padding:0;
+      margin:0;
     }
       #zone-menu-wrapper ul.menu li a {
-        padding: .5em 3.85em;
+        padding: .5em 2em;
         color: #fff;
         display: block;
         border-bottom: 0 solid;
         border-right: 1px solid rgba(255, 255, 255, .3);
+      }
+      #zone-menu-wrapper ul.menu li.last a {
+        border-right:none;
       }
       #zone-menu-wrapper ul.menu li a:hover,
       #zone-menu-wrapper ul.menu li a:focus {
