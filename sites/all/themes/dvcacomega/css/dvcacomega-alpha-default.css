@@ -38,3 +38,33 @@ a:link {
 #region-sidebar-second .content .views-field-field-event-date {
   padding:0 15px;
 }
+/* Secondary Menu */
+#zone-menu-wrapper {
+  background-color:#5091CD;
+}
+  #zone-menu-wrapper ul.menu {
+    margin: 0;
+    list-style-type: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+  }
+    #zone-menu-wrapper ul.menu li {
+      display: block;
+      float: left;
+      padding:0;
+      margin:0;
+    }
+      #zone-menu-wrapper ul.menu li a {
+        padding: .5em 2em;
+        color: #fff;
+        display: block;
+        border-bottom: 0 solid;
+        border-right: 1px solid rgba(255, 255, 255, .3);
+      }
+      #zone-menu-wrapper ul.menu li.last a {
+        border-right:none;
+      }
+      #zone-menu-wrapper ul.menu li a:hover,
+      #zone-menu-wrapper ul.menu li a:focus {
+        border-bottom: 0 solid;
+        background: rgba(255, 255, 255, .3);
+      }
