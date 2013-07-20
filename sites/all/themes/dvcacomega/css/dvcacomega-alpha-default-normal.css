@@ -101,3 +101,27 @@
       text-transform: uppercase;
       font-weight: bold;
     }
+#zone-menu-wrapper {
+  background-color:#5091CD;
+}
+  #zone-menu-wrapper ul.menu {
+    margin: 0;
+    list-style-type: none;
+    border-left: 1px solid rgba(255, 255, 255, .3);
+  }
+    #zone-menu-wrapper ul.menu li {
+      display: block;
+      float: left;
+    }
+      #zone-menu-wrapper ul.menu li a {
+        padding: .5em 3.85em;
+        color: #fff;
+        display: block;
+        border-bottom: 0 solid;
+        border-right: 1px solid rgba(255, 255, 255, .3);
+      }
+      #zone-menu-wrapper ul.menu li a:hover,
+      #zone-menu-wrapper ul.menu li a:focus {
+        border-bottom: 0 solid;
+        background: rgba(255, 255, 255, .3);
+      }
