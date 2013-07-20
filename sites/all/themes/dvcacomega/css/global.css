@@ -10,7 +10,7 @@ body, input, textarea, button, form, select {
   color: #444;
 }
 
-a, a:link, a:visited { 
+a, a:link, a:visited {
   text-decoration: none;
   color: rgb(80, 145, 205);
   font-weight: bold;
@@ -65,7 +65,7 @@ h4 {
     margin: .666666em 0;
 }
 
-h5, h6 { 
+h5, h6 {
     font-size: 1em;
     line-height: 1.5;
     margin: .75em 0;
@@ -93,7 +93,7 @@ h5, h6 {
 
 /*************** Masthead ******************/
 
-/*.site-name { 
+/*.site-name {
   display: block;
   width: 20%;
   background: url('../images/DVCAC_Logo_cmyk.png');
@@ -109,7 +109,7 @@ header {
 	background: #f6f6f6;
 }
 
-ul.menu  { 
+ul.menu  {
   margin: 0;
   border-right: 1px solid #ddd;
 }
@@ -136,4 +136,40 @@ ul.menu li {
 .menu a:hover {
   background: rgb(80, 145, 205);
   color: white;
+}
+
+/*************** Layout  ******************/
+#region-sidebar-second {
+  background-color: #f6f6f6;
+}
+#region-sidebar-second h2.block-title {
+  background-color: #DFE0E0;
+  padding: 15px;
+}
+#region-sidebar-second .content .views-row {
+  border-bottom: 1px solid #DFE0E0;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+#region-sidebar-second .content .views-field-title {
+  font-size:115%;
+}
+#region-sidebar-second .content .views-field-title a {
+  padding:5px 15px;
+  display:block;
+}
+#region-sidebar-second .content .views-field-title,
+#region-sidebar-second .content .views-field-title a {
+  color: #444;
+  font-weight: bold;
+}
+#region-sidebar-second .content .views-field-title a:hover,
+#region-sidebar-second .content .views-field-title a:focus {
+  background-color:#54CC9C;
+  color: #fff;
+  transition: all 0.3s ease 0s;
+}
+#region-sidebar-second .content .views-field-body,
+#region-sidebar-second .content .views-field-field-event-date {
+  padding:0 15px;
 }
