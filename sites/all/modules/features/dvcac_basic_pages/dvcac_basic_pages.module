@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Basic Pages feature.
+ */
+
+include_once 'dvcac_basic_pages.features.inc';
