@@ -1,2 +1,139 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+body {
+  margin: 0; padding: 0;
+}
+
+body, input, textarea, button, form, select {
+  font: 100%/1.5 'Arial', sans-serif;
+  color: #444;
+}
+
+a, a:link, a:visited { 
+  text-decoration: none;
+  color: rgb(80, 145, 205);
+  font-weight: bold;
+  border-bottom: thin solid transparent;
+
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+a:hover, a:active, a:focus {
+  border-bottom-color: #ddd;
+}
+
+/********** Typography **********/
+
+p { margin: 0; }
+p + p { margin-top: 1.5em; }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(130, 75, 147);
+    font-weight: 800;
+    font-family: 'Arial', sans-serif;
+}
+
+h1 a, h1 a:link, h1 a:visited, h2 a, h2 a:link, h2 a:visited, h3 a, h3 a:link, h3 a:visited, h4 a, h4 a:link, h4 a:visited, h5 a, h5 a:link, h5 a:visited, h6 a, h6 a:link, h6 a:visited { color: rgb(130, 75, 147); }
+
+h1 {
+    font-size: 2em;
+    line-height: 1.5;
+    margin: .375em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: .5em 0;
+}
+
+h3 {
+    font-size: 1.25em;
+    line-height: 1.2;
+    margin: .6em 0;
+}
+
+h4 {
+    font-size: 1.125em;
+    line-height: 1.333333;
+    margin: .666666em 0;
+}
+
+h5, h6 { 
+    font-size: 1em;
+    line-height: 1.5;
+    margin: .75em 0;
+    text-transform: uppercase;
+}
+
+/* Clearfix */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*************** Colors ******************/
+
+.color-1, .menu .child-color:hover { background: rgb(80, 145, 205); }
+.color-2, .menu .domestic-color:hover { background: rgb(130, 75, 147); }
+.color-3, .menu .teen-color:hover { background: rgb(185, 185, 185); }
+.color-4 { background: rgb(223, 224, 224); }
+.color-5 { background: rgb(84, 204, 156); }
+.color-6 { background: rgb(82, 178, 140); }
+
+
+
+/*************** Masthead ******************/
+
+/*.site-name { 
+  display: block;
+  width: 20%;
+  background: url('../images/DVCAC_Logo_cmyk.png');
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  direction: rtl;
+  text-indent: 10000px;
+  float: left;
+}*/
+
+header {
+	background: #f6f6f6;
+}
+
+ul.menu  { 
+  margin: 0;
+  border-right: 1px solid #ddd;
+}
+
+ul.menu li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.menu a {
+  display: block;
+  line-height: 9em;
+  padding: 0 40px;
+  border-left: 1px solid #ddd;
+  font-weight: bold;
+  font-size: 1em;
+  color: #000;
+}
+
+.menu a:hover {
+  background: rgb(80, 145, 205);
+  color: white;
+}
