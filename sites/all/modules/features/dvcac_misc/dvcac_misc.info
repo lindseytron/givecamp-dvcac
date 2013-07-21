@@ -6,6 +6,7 @@ dependencies[] = ctools
 dependencies[] = dvcac_program_updates
 dependencies[] = features
 dependencies[] = filter
+dependencies[] = media
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = wysiwyg

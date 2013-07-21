@@ -31,6 +31,9 @@ function dvcac_misc_wysiwyg_default_profiles() {
           'Blockquote' => 1,
           'Format' => 1,
         ),
+        'drupal' => array(
+          'media' => 1,
+        ),
       ),
       'toolbar_loc' => 'top',
       'toolbar_align' => 'left',
@@ -47,7 +50,7 @@ function dvcac_misc_wysiwyg_default_profiles() {
       'css_setting' => 'self',
       'css_path' => 'sites/all/themes/dvcacomega/css/global.css',
       'css_classes' => '',
-      'advanced__active_tab' => 'edit-css',
+      'advanced__active_tab' => 'edit-basic',
     ),
     'rdf_mapping' => array(),
   );
@@ -74,6 +77,9 @@ function dvcac_misc_wysiwyg_default_profiles() {
           'Source' => 1,
           'Format' => 1,
         ),
+        'drupal' => array(
+          'media' => 1,
+        ),
       ),
       'toolbar_loc' => 'top',
       'toolbar_align' => 'left',
@@ -90,7 +96,7 @@ function dvcac_misc_wysiwyg_default_profiles() {
       'css_setting' => 'self',
       'css_path' => 'sites/all/themes/dvcacomega/css/global.css',
       'css_classes' => '',
-      'advanced__active_tab' => 'edit-css',
+      'advanced__active_tab' => 'edit-basic',
     ),
     'rdf_mapping' => array(),
   );
