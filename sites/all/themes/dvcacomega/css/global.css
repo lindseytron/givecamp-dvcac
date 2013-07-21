@@ -115,7 +115,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: deepskyblue;
+  border-color: rgb(82, 178, 140);
 }
 
 input[type='button'], input[type='submit'], button, a.button {
