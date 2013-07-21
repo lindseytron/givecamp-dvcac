@@ -145,6 +145,13 @@ a:link {
     line-height: 1em;
     color: #666;
 }
+
+/* Testimonials */
+
+#block-fieldblock-node-basic-page-default-field-testimonial {
+  padding: 0 20px;
+}
+
 /* Secondary Menu */
 #zone-menu-wrapper {
   background-color:#5091CD;

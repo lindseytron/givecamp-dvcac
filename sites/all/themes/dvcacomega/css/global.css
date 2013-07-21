@@ -206,6 +206,8 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   box-shadow: inset 0 0 10em hsla(0, 0%, 0%, .2);
 }
 
+.form-actions input:hover { background: rgb(82, 178, 140); }
+
 .region-content  .mc-field-group ul li { list-style-type: none; }
 
 input[type="checkbox"], .mc-field-group li input[type="checkbox"], .mc-field-group li input[type="radio"], input[type="radio"] {
@@ -304,7 +306,7 @@ footer ul.menu li a:focus {
   text-indent: 10px;
 }
 
-#edit-actions {
+.region-sidebar-second-inner #edit-actions {
     display: block;
     float: right;
     position: absolute;
