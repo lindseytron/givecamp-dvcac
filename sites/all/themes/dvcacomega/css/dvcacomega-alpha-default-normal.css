@@ -8,6 +8,7 @@
 	position: fixed;
 	top: 50%;
 	right: -51px;
+	right: -100px\9;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -15,8 +16,8 @@
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	background: #000;
 	margin: 0;
-  display:block;
-  z-index:9999;
+	display:block;
+	z-index:9999;
 }
 #block-block-2:hover,
 #block-block-2:focus {

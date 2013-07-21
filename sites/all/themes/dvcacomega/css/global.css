@@ -258,12 +258,6 @@ footer ul.menu li a:focus {
 .region-content ul li, .region-content ol li { margin-bottom: 10px; }
     .region-content ul li { list-style-type: disc; }
     .region-content ol li { list-style-type: decimal; }
-#social-media-footer img:hover,
-#social-media-footer img:focus {
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-  filter: alpha(opacity=50);
-  opacity: .5;
-}
 #footer-logos img {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
   filter: alpha(opacity=50);
@@ -306,13 +300,20 @@ footer ul.menu li a:focus {
 }
 
 #block-search-form .form-text, #search-form .form-text {
-  width: 66%;
-  float: left;
-  margin-right: 10px;
   height: 42px;
   text-indent: 10px;
 }
-#search-form label { display: block; }
+
+#edit-actions {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.form-actions .form-submit {
+    margin: 0;
+}
 
 /* Share This widget */
 
