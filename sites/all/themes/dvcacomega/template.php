@@ -10,3 +10,18 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+
+
+function dvcacomega_preprocess_region(&$vars) {
+  $theme = alpha_get_theme();
+
+ if ($vars['elements']['#region'] == 'content') {
+    $vars['breadcrumb'] = $theme->page['breadcrumb'];
+  }
+}
+
+
+
+
+

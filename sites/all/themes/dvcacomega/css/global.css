@@ -231,6 +231,16 @@ footer ul.menu li a:focus {
   overflow: hidden;
 }
 
+/* Breadcrumb */
+.breadcrumb {
+  margin: 1em 0;
+  font-size: .75em;
+}
+  .breadcrumb a { color: #999; }
+
+/* Share This widget */
+
+.not-front #block-sharethis-sharethis-block { margin: 1em; }
 
 /* Home Page node stuff hiding (Temporary fix) */
 body.front #page-title,

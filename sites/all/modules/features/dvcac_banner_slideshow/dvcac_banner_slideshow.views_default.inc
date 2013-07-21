@@ -94,6 +94,7 @@ function dvcac_banner_slideshow_views_default_views() {
   $handler->display->display_options['fields']['field_text']['field'] = 'field_text';
   $handler->display->display_options['fields']['field_text']['label'] = '';
   $handler->display->display_options['fields']['field_text']['element_label_colon'] = FALSE;
+  $handler->display->display_options['fields']['field_text']['hide_empty'] = TRUE;
   $handler->display->display_options['fields']['field_text']['settings'] = array(
     'trim_length' => '600',
   );
