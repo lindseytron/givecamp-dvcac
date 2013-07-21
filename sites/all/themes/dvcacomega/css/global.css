@@ -51,7 +51,6 @@ h2 {
     font-size: 1.5em;
     line-height: 1;
     margin: .5em 0;
-    font-weight:normal;
 }
 
 h3 {
@@ -72,7 +71,31 @@ h5, h6 {
     margin: .75em 0;
     text-transform: uppercase;
 }
-
+#zone-content h2.block-title {
+ font-weight:400;
+ border-bottom: 4px solid #F0F0F0;
+ padding:5px;
+}
+#zone-content .views-field-title {
+  font-weight:400;
+  font-size:110%;
+}
+#zone-content .views-field-title a {
+  font-weight:400;
+}
+#zone-content .views-field-body {
+  font-size:90%;
+  font-weight:normal;
+}
+#zone-content .views-row {
+  padding:15px;
+  border-bottom:1px solid #f2f2f2;
+  margin-bottom:10px;
+}
+#zone-content .views-row:hover,
+#zone-content .views-row:focus {
+  background-color:#f9f9f9;
+}
 /* Clearfix */
 
 .clearfix:after {
@@ -177,8 +200,6 @@ a.btn-tertiary {
 #zone-content {
   margin-top:20px;
 }
-
-
 /* Footer */
 #zone-footer-wrapper {
   background: rgb(223, 224, 224);

@@ -4,8 +4,10 @@ a,
 a:link {
   text-decoration:none;
 }
-
-#block-menu-block-4 { 
+#zone-content h2.block-title {
+  font-weight:normal;
+}
+#block-menu-block-4 {
   float: left;
   border-right: 1px solid #ddd;
 }
@@ -72,7 +74,7 @@ a:link {
 #block-boxes-banner-call-to-actions .call-to-action {
     text-align: center;
   }
-    #block-boxes-banner-call-to-actions .call-to-action .button { 
+    #block-boxes-banner-call-to-actions .call-to-action .button {
       width: 78%;
       margin: 0 auto;
       text-align: center;
@@ -107,7 +109,6 @@ a:link {
     line-height: 1em;
     color: #666;
 }
-
 /* Secondary Menu */
 #zone-menu-wrapper {
   background-color:#5091CD;
