@@ -184,7 +184,7 @@ a:link {
       }
 
 /* CTA Buttons */
-#region-header-first { float: none; }
+#region-header-first { float: left; }
 
 /* Sidebar Menus */
 .region-sidebar-second ul.menu { margin-left: 20px; }
