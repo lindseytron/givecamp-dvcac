@@ -66,16 +66,16 @@ a:link {
 #block-boxes-banner-call-to-actions .call-to-action {
     text-align: center;
   }
-    #block-boxes-banner-call-to-actions .call-to-action .button { 
+    #block-boxes-banner-call-to-actions .call-to-action .button {
       width: 100%;
       margin-bottom: 0;
     }
-      #block-boxes-banner-call-to-actions .primary-call-to-action .button { 
+      #block-boxes-banner-call-to-actions .primary-call-to-action .button {
         text-transform: uppercase;
         font-weight: bold;
         background: rgb(130, 75, 147);
       }
-    #block-boxes-banner-call-to-actions .call-to-action h3 { 
+    #block-boxes-banner-call-to-actions .call-to-action h3 {
       color: #000;
       margin: 0 0 .5em;
     }
