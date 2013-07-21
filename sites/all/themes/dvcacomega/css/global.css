@@ -299,6 +299,21 @@ footer ul.menu li a:focus {
 }
   .breadcrumb a { color: #999; }
 
+/* Search */
+
+#block-search-form {
+  margin: 0 auto;
+}
+
+#block-search-form .form-text, #search-form .form-text {
+  width: 66%;
+  float: left;
+  margin-right: 10px;
+  height: 42px;
+  text-indent: 10px;
+}
+#search-form label { display: block; }
+
 /* Share This widget */
 
 .not-front #block-sharethis-sharethis-block { margin: 1em; }
