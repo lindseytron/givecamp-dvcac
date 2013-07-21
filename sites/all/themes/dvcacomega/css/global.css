@@ -162,14 +162,27 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   font-size: .875em;
   background: rgb(185, 185, 185);
 }
-
+/* Footer */
 #zone-footer-wrapper {
   background: rgb(223, 224, 224);
+  border-top: 4px solid #B9B9B9;
   font-size: .8em;
   padding: 3em 0;
   margin-top: 3em;
 }
-
+footer ul.menu {
+  float:right;
+}
+footer ul.menu li {
+  float:left;
+}
+footer ul.menu li a:hover,
+footer ul.menu li a:focus {
+  color:#824B93;
+}
+#region-footer-second {
+  text-align:right;
+}
 .region-content ul, .region-content ol {
   margin: 0 0 20px 20px;
 }
