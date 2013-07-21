@@ -190,6 +190,17 @@ footer ul.menu li a:focus {
 .region-content ul li, .region-content ol li { margin-bottom: 10px; }
     .region-content ul li { list-style-type: disc; }
     .region-content ol li { list-style-type: decimal; }
+#footer-logos img {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+#footer-logos img:focus,
+#footer-logos img:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1.0;
+}
 
 /* Banner Slideshow */
 
