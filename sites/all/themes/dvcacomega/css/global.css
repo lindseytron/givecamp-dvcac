@@ -150,15 +150,15 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   box-shadow: inset 0 0 10em hsla(0, 0%, 0%, .2);
 }
 
-.btn-primary {
+a.btn-primary {
   font-size: 1.125em;
 }
 
-.btn-secondary {
+a.btn-secondary {
   background: rgb(80, 145, 205);
 }
 
-.btn-tertiary {
+a.btn-tertiary {
   font-size: .875em;
   background: rgb(185, 185, 185);
 }
