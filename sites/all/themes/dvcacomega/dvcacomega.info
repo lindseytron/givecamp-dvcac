@@ -39,12 +39,12 @@ regions[postscript_second] = Postscript Second
 regions[postscript_third] = Postscript Third
 regions[postscript_fourth] = Postscript Fourth
 
-;regions[footer_first] = Footer First
-;regions[footer_second] = Footer Second
-regions[footer_upper_left] = Footer Upper Left
-regions[footer_lower_left] = Footer Lower Left
-regions[footer_upper_right] = Footer Upper Right
-regions[footer_lower_right] = Footer Lower Right
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+;regions[footer_upper_left] = Footer Upper Left
+;regions[footer_lower_left] = Footer Lower Left
+;regions[footer_upper_right] = Footer Upper Right
+;regions[footer_lower_right] = Footer Lower Right
 
 
 ; ZONES
