@@ -163,6 +163,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   background: rgb(185, 185, 185);
 }
 
+#zone-footer-wrapper {
+  background: rgb(223, 224, 224);
+  font-size: .8em;
+  padding: 3em 0;
+  margin-top: 3em;
+}
+
 
 /* Banner Slideshow */
 
