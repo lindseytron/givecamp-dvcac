@@ -5,4 +5,51 @@
  #zone-menu-wrapper ul.menu li a {
    padding: .5em 1em;
  }
-
+ #block-boxes-upper-help-box {
+  margin:0;
+ }
+ .zone-user-wrapper .menu a {
+  padding: 0 20px;
+}
+ #region-branding {
+  margin:0;
+}
+#logo {
+  width:100%;
+}
+ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+.zone-user-wrapper .menu a {
+  padding:10px;
+  background-color:#DFE0E0;
+  display:block;
+}
+.zone-user-wrapper .menu a:hover,
+.zone-user-wrapper .menu a:focus {
+  background: rgb(130, 75, 147);
+  color: white;
+}
+.zone-user-wrapper .menu .first a:hover,
+.zone-user-wrapper .menu .first a:focus {
+  background-color:rgb(80, 145, 205);
+}
+.zone-user-wrapper .menu .last a:hover,
+.zone-user-wrapper .menu .last a:focus {
+  background-color:rgb(185, 185, 185);
+}
+.button {
+  margin-top:5px;
+}
+.boxes-box-content h5,
+.boxes-box-content h2 {
+  width:50%;
+  float:left;
+}
+.boxes-box-content h5 {
+  color:#444;
+}
+#block-block-2 {
+  display:none;
+}
