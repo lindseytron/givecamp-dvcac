@@ -185,12 +185,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
 }
 #views_slideshow_cycle_main_banner_slideshow-block .views-field-field-text {
   position: absolute;
-  bottom: 0;
+  right: 0;
   background: rgba(255,255,255,.8);
-  width: 50%;
+  width: 25%;
   line-height: 1em;
   padding: 1em 2em;
   font-size: 1.5em;
+  bottom: 20px;
 }
 
 
