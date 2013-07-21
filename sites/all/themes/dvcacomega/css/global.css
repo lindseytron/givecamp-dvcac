@@ -95,6 +95,17 @@ h5, h6 {
 #zone-content .views-row:focus {
   background-color:#f9f9f9;
 }
+#zone-content #block-views-events-block .views-field-title {
+  font-weight:bold;
+  font-size:95%;
+}
+#zone-content #block-views-events-block .views-field-title a {
+  font-weight:bold;
+}
+#zone-content #block-views-events-block .views-field-field-event-date {
+  font-size:85%;
+  color:#ACACAC;
+}
 /* Clearfix */
 
 .clearfix:after {
