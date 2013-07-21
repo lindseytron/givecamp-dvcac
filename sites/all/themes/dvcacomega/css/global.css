@@ -192,6 +192,8 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   padding: 1em 2em;
   font-size: 1.5em;
   bottom: 20px;
+  max-height: 200px;
+  overflow: hidden;
 }
 
 
