@@ -81,7 +81,7 @@ function dvcac_basic_pages_field_default_field_instances() {
     'settings' => array(
       'description_field' => 0,
       'file_directory' => 'attachments',
-      'file_extensions' => 'txt pdf doc docx jpg png gif jpeg ppt pptx',
+      'file_extensions' => 'jpg jpeg gif png txt doc docx xls xlsx pdf ppt pptx pps ppsx odt ods odp mp3 mov mp4 m4a m4v mpeg avi ogg oga ogv wmv ico',
       'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
@@ -94,6 +94,7 @@ function dvcac_basic_pages_field_default_field_instances() {
           'public' => 'public',
         ),
         'allowed_types' => array(
+          0 => 0,
           'audio' => 0,
           'document' => 0,
           'image' => 'image',

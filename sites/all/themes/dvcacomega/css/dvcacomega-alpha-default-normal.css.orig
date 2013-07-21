@@ -7,7 +7,11 @@
 #block-block-2 {
 	position: fixed;
 	top: 50%;
+<<<<<<< HEAD
+	right: -50px;
+=======
 	right: -51px;
+>>>>>>> dda37bf708b4b41ec0dddbc95c771469892f46fc
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
@@ -16,10 +20,13 @@
 	background: #000;
 	margin: 0;
 }
+<<<<<<< HEAD
 #block-block-2:hover,
 #block-block-2:focus {
   background: #444;
 }
+=======
+>>>>>>> dda37bf708b4b41ec0dddbc95c771469892f46fc
 	#block-block-2 .content a {
 		color: #fff;
 		padding: 10px 20px;

@@ -115,7 +115,7 @@ input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: deepskyblue;
+  border-color: rgb(82, 178, 140);
 }
 
 input[type='button'], input[type='submit'], button, a.button {
@@ -161,4 +161,35 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
 .btn-tertiary {
   font-size: .875em;
   background: rgb(185, 185, 185);
+}
+
+#zone-footer-wrapper {
+  background: rgb(223, 224, 224);
+  font-size: .8em;
+  padding: 3em 0;
+  margin-top: 3em;
+}
+
+
+/* Banner Slideshow */
+
+#views_slideshow_cycle_main_banner_slideshow-block {
+  position: relative;
+}
+#views_slideshow_cycle_main_banner_slideshow-block .views-field-field-text {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255,255,255,.8);
+  width: 50%;
+  line-height: 1em;
+  padding: 1em 2em;
+  font-size: 1.5em;
+}
+
+
+/* Home Page node stuff hiding (Temporary fix) */
+body.front #page-title,
+body.front .region-inner .tabs,
+body.front .region-inner .print_html {
+  display: none;
 }
