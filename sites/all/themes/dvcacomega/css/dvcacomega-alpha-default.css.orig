@@ -66,8 +66,13 @@ a:link {
 #block-boxes-banner-call-to-actions .call-to-action {
     text-align: center;
   }
+<<<<<<< HEAD
+    #block-boxes-banner-call-to-actions .call-to-action .button {
+      width: 100%;
+=======
     #block-boxes-banner-call-to-actions .call-to-action .button { 
       width: 78%;
+>>>>>>> 2d7d2b537a531b77c5f89c719bb055cd2aea2c08
       margin-bottom: 0;
     }
       #block-boxes-banner-call-to-actions .primary-call-to-action .button {
