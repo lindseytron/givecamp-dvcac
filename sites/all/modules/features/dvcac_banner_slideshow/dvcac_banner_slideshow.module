@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Banner Slideshow feature.
+ */
+
+include_once 'dvcac_banner_slideshow.features.inc';
