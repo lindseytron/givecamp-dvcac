@@ -41,7 +41,7 @@ function dvcac_banner_slideshow_image_default_styles() {
         'module' => 'image',
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => 960,
+          'width' => 1180,
           'height' => 300,
         ),
         'weight' => 1,
