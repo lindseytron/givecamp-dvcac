@@ -7,16 +7,18 @@
 #block-block-2 {
 	position: fixed;
 	top: 50%;
-	right: -31px;
+	right: -51px;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	background: #000;
 	margin: 0;
 }
-	#block-block-2:hover { right: -23px; }
 	#block-block-2 .content a {
 		color: #fff;
-		padding: 10px 20px 20px;
+		padding: 10px 20px;
 		display: block;
 	}
 
