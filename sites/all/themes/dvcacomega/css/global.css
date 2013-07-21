@@ -154,7 +154,7 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
 
 .region-content  .mc-field-group ul li { list-style-type: none; }
 
-input[type="checkbox"], .mc-field-group li input[type="checkbox"], .mc-field-group li input[type="radio"], input[type="radio"] { 
+input[type="checkbox"], .mc-field-group li input[type="checkbox"], .mc-field-group li input[type="radio"], input[type="radio"] {
   float: left;
   width: 26px;
   margin-top: 4px;
@@ -229,6 +229,9 @@ footer ul.menu li a:focus {
   bottom: 20px;
   max-height: 200px;
   overflow: hidden;
+}
+.views-field-field-banner-image img {
+  max-width:100%;
 }
 
 /* Breadcrumb */
