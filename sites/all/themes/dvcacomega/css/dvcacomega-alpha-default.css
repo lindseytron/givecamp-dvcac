@@ -88,9 +88,10 @@ a:link {
     }
 /* Infographics */
 .field-name-field-infographic {
-    background: #F0F0F0;
-    padding: 20px 0 30px;    
+    border-top: 5px solid #F0F0F0;
+    padding: 20px 0 30px;
     margin: 20px 0;
+    border-bottom: 5px solid #F0F0F0;
 }
 
 .field-name-field-stat .field-item {
