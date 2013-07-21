@@ -170,6 +170,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   margin-top: 3em;
 }
 
+.region-content ul, .region-content ol {
+  margin: 0 0 20px 20px;
+}
+
+.region-content ul li, .region-content ol li { margin-bottom: 10px; }
+    .region-content ul li { list-style-type: disc; }
+    .region-content ol li { list-style-type: decimal; }
 
 /* Banner Slideshow */
 
