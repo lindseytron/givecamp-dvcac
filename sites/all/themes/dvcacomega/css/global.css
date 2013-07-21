@@ -163,6 +163,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   background: rgb(185, 185, 185);
 }
 
+#zone-footer-wrapper {
+  background: rgb(223, 224, 224);
+  font-size: .8em;
+  padding: 3em 0;
+  margin-top: 3em;
+}
+
 
 /* Banner Slideshow */
 
@@ -177,4 +184,12 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   line-height: 1em;
   padding: 1em 2em;
   font-size: 1.5em;
+}
+
+
+/* Home Page node stuff hiding (Temporary fix) */
+body.front #page-title,
+body.front .region-inner .tabs,
+body.front .region-inner .print_html {
+  display: none;
 }
