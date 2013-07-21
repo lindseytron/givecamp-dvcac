@@ -74,6 +74,8 @@ a:link {
         text-transform: uppercase;
         font-weight: bold;
         background: rgb(130, 75, 147);
+        margin: 0 auto;
+        text-align: center;
       }
     #block-boxes-banner-call-to-actions .call-to-action h3 {
       color: #000;
