@@ -48,6 +48,9 @@ ul li.leaf {
 #block-block-2 {
   display:none;
  }
+
+#region-header-first { float: none; }
+
 @media (max-width: 979px) {
   .zone-user-wrapper .menu .leaf a {
     line-height:normal;
