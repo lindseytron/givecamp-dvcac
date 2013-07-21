@@ -61,6 +61,34 @@ a:link {
 .not-front #region-sidebar-second .content .views-field-field-event-date {
   padding:0 15px;
 }
+
+/* Call to Action Buttons */
+#block-boxes-banner-call-to-actions .call-to-action {
+    float: right;
+    clear: right;
+    background-color: rgba(255,255,255,.85);
+    padding: 10px 20px;
+    border: 5px solid #fff;
+    margin: 20px 20px 0;
+    z-index: 1000;
+    position: relative;
+    width: 20%;
+    text-align: center;
+  }
+    #block-boxes-banner-call-to-actions .call-to-action .button { 
+      width: 100%;
+      margin-bottom: 0;
+    }
+      #block-boxes-banner-call-to-actions .primary-call-to-action .button { 
+        text-transform: uppercase;
+        font-weight: bold;
+        background: rgb(130, 75, 147);
+      }
+    #block-boxes-banner-call-to-actions .call-to-action h3 { 
+      color: #000;
+      margin: 0 0 .5em;
+    }
+
 /* Secondary Menu */
 #zone-menu-wrapper {
   background-color:#5091CD;

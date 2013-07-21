@@ -46,7 +46,7 @@ ul li.leaf {
   display:none;
  }
 @media (max-width: 979px) {
-  .zone-user-wrapper .menu a {
+  .zone-user-wrapper .menu .leaf a {
     line-height:normal;
   }
 }
