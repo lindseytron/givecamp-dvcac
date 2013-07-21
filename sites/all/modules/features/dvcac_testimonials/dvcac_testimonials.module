@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Testimonials feature.
+ */
+
+include_once 'dvcac_testimonials.features.inc';
