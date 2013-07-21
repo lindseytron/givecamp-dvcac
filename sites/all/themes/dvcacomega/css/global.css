@@ -71,7 +71,41 @@ h5, h6 {
     margin: .75em 0;
     text-transform: uppercase;
 }
-
+#zone-content h2.block-title {
+ font-weight:400;
+ border-bottom: 4px solid #F0F0F0;
+ padding:5px;
+}
+#zone-content .views-field-title {
+  font-weight:400;
+  font-size:110%;
+}
+#zone-content .views-field-title a {
+  font-weight:400;
+}
+#zone-content .views-field-body {
+  font-size:90%;
+  font-weight:normal;
+}
+#zone-content .views-row {
+  padding:15px;
+  border-bottom:1px solid #f2f2f2;
+}
+#zone-content .views-row:hover,
+#zone-content .views-row:focus {
+  background-color:#f9f9f9;
+}
+#zone-content #block-views-events-block .views-field-title {
+  font-weight:bold;
+  font-size:95%;
+}
+#zone-content #block-views-events-block .views-field-title a {
+  font-weight:bold;
+}
+#zone-content #block-views-events-block .views-field-field-event-date {
+  font-size:85%;
+  color:#ACACAC;
+}
 /* Clearfix */
 
 .clearfix:after {
@@ -172,6 +206,9 @@ a.btn-secondary {
 a.btn-tertiary {
   font-size: .875em;
   background: rgb(185, 185, 185);
+}
+#zone-content {
+  margin-top:20px;
 }
 /* Footer */
 #zone-footer-wrapper {
