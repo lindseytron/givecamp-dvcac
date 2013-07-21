@@ -162,3 +162,35 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   font-size: .875em;
   background: rgb(185, 185, 185);
 }
+
+ /* Landscape phone to portrait tablet */
+ /* secondary navigation */
+ @media (max-width: 767px) {
+  #region-branding,
+  #region-branding img {
+    width:200px;
+    float:left;
+  }
+  #region-user-first {
+    width:300px;
+    float:left;
+  }
+  .boxes-box-content {
+    display:none;
+  }
+  #block-menu-menu-help-action-menu,
+  #block-menu-menu-help-action-menu ul.menu {
+    width:300px;
+    float:left;
+  }
+  #block-menu-menu-help-action-menu ul.menu li.leaf {
+    list-style-image: none;
+    list-style-type:none;
+    width:100%;
+  }
+  #block-menu-menu-help-action-menu ul.menu li.leaf a {
+    width:100%;
+    padding:15px;
+  }
+
+}
