@@ -306,7 +306,7 @@ footer ul.menu li a:focus {
   text-indent: 10px;
 }
 
-#edit-actions {
+.region-sidebar-second-inner #edit-actions {
     display: block;
     float: right;
     position: absolute;
