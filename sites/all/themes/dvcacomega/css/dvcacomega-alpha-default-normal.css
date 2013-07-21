@@ -57,6 +57,7 @@
 }
 .zone-user-wrapper .menu .leaf a {
   padding:0 10px;
+  border-bottom: 0 solid;
 }
 #block-boxes-upper-help-box {
   margin:0;
