@@ -64,15 +64,6 @@ a:link {
 
 /* Call to Action Buttons */
 #block-boxes-banner-call-to-actions .call-to-action {
-    float: right;
-    clear: right;
-    background-color: rgba(255,255,255,.85);
-    padding: 10px 20px;
-    border: 5px solid #fff;
-    margin: 20px 20px 0;
-    z-index: 1000;
-    position: relative;
-    width: 20%;
     text-align: center;
   }
     #block-boxes-banner-call-to-actions .call-to-action .button { 
