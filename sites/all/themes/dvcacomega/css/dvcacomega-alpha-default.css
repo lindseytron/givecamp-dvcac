@@ -183,5 +183,8 @@ a:link {
         background: rgba(255, 255, 255, .3);
       }
 
+/* CTA Buttons */
+#region-header-first { float: none; }
+
 /* Sidebar Menus */
 .region-sidebar-second ul.menu { margin-left: 20px; }
