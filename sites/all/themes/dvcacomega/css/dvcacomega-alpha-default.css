@@ -4,6 +4,9 @@ a,
 a:link {
   text-decoration:none;
 }
+
+#block-menu-block-4 { float: left; }
+
 .zone-user-wrapper .menu .leaf a {
   display: block;
   line-height: 10em;
