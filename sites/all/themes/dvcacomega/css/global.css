@@ -76,33 +76,33 @@ h5, h6 {
  border-bottom: 4px solid #F0F0F0;
  padding:5px;
 }
-#zone-content .views-field-title {
+.front #zone-content .views-field-title {
   font-weight:400;
   font-size:110%;
 }
-#zone-content .views-field-title a {
+.front #zone-content .views-field-title a {
   font-weight:400;
 }
-#zone-content .views-field-body {
+.front #zone-content .views-field-body {
   font-size:90%;
   font-weight:normal;
 }
-#zone-content .views-row {
+.front #zone-content .views-row {
   padding:15px;
   border-bottom:1px solid #f2f2f2;
 }
-#zone-content .views-row:hover,
-#zone-content .views-row:focus {
+.front #zone-content .views-row:hover,
+.front #zone-content .views-row:focus {
   background-color:#f9f9f9;
 }
-#zone-content #block-views-events-block .views-field-title {
+.front #zone-content #block-views-events-block .views-field-title {
   font-weight:bold;
   font-size:95%;
 }
-#zone-content #block-views-events-block .views-field-title a {
+.front #zone-content #block-views-events-block .views-field-title a {
   font-weight:bold;
 }
-#zone-content #block-views-events-block .views-field-field-event-date {
+.front #zone-content #block-views-events-block .views-field-field-event-date {
   font-size:85%;
   color:#ACACAC;
 }
