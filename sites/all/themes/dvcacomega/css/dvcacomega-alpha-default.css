@@ -103,6 +103,27 @@ a:link {
       color: #000;
       margin: 1.5em 0 .5em;
     }
+
+/* Masthead Call to Action */
+#block-boxes-upper-help-box .button {
+  margin: .75em auto;
+  padding: .6em 3em;
+}
+
+#block-boxes-upper-help-box h5 {
+  margin: .65em 0 .1em;
+  color: #8F8F8F;
+  font-size: .9em;
+  font-weight: normal;
+  letter-spacing: .01em;
+  line-height: .95em;
+  text-transform: none;
+}
+
+#region-branding {
+  bottom: -22px;
+}
+
 /* Infographics */
 .field-name-field-infographic {
     border-top: 5px solid #F0F0F0;
