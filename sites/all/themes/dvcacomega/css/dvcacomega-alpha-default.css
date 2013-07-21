@@ -5,7 +5,10 @@ a:link {
   text-decoration:none;
 }
 
-#block-menu-block-4 { float: left; }
+#block-menu-block-4 { 
+  float: left;
+  border-right: 1px solid #ddd;
+}
 
 .zone-user-wrapper .menu .leaf a {
   display: block;
