@@ -44,9 +44,11 @@
 
 .zone-user-wrapper {
 	background: #f6f6f6;
+	border-bottom: 5px solid #000;
 }
 
 .logo-img { margin: 0; }
+.logo-img a { border-bottom: 0 solid; }
 .logo-img img {
 	width: 100%;
 	margin-top: 10px;
