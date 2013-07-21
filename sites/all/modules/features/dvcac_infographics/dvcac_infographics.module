@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the DVCAC Infographics feature.
+ */
+
+include_once 'dvcac_infographics.features.inc';
