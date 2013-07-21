@@ -5,6 +5,10 @@ engine = phptemplate
 screenshot = screenshot.png
 base theme = omega
 
+; JAVASCRIPT
+
+scripts[] = dvcac_dynamic_menu.js
+
 ; IMPORTANT: DELETE THESE TWO LINES IN YOUR SUBTHEME
 
 ;hidden = TRUE
@@ -45,7 +49,6 @@ regions[footer_second] = Footer Second
 ;regions[footer_lower_left] = Footer Lower Left
 ;regions[footer_upper_right] = Footer Upper Right
 ;regions[footer_lower_right] = Footer Lower Right
-
 
 ; ZONES
 
