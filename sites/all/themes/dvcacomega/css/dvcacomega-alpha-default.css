@@ -4,6 +4,29 @@ a,
 a:link {
   text-decoration:none;
 }
+.zone-user-wrapper .menu a {
+  display: block;
+  line-height: 10em;
+  padding: 0 40px;
+  border-left: 1px solid #ddd;
+  font-weight: normal;
+  font-size: 1em;
+  color: #000;
+  background-color:#F6F6F6;
+}
+.zone-user-wrapper .menu a:hover,
+.zone-user-wrapper .menu a:focus {
+  background: rgb(130, 75, 147);
+  color: white;
+}
+.zone-user-wrapper .menu .first a:hover,
+.zone-user-wrapper .menu .first a:focus {
+  background-color:rgb(80, 145, 205);
+}
+.zone-user-wrapper .menu .last a:hover,
+.zone-user-wrapper .menu .last a:focus {
+  background-color:rgb(185, 185, 185);
+}
 .not-front #region-sidebar-second {
   background-color: #f6f6f6;
 }

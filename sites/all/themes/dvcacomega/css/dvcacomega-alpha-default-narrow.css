@@ -21,9 +21,9 @@ ul li.leaf {
   list-style-image: none;
   list-style-type: none;
 }
-.zone-user-wrapper .menu a {
+.zone-user-wrapper .menu .leaf a {
   padding:10px;
-  background-color:#DFE0E0;
+  background-color:#f6f6f6;
   display:block;
 }
 .zone-user-wrapper .menu a:hover,
@@ -42,14 +42,11 @@ ul li.leaf {
 .button {
   margin-top:5px;
 }
-.boxes-box-content h5,
-.boxes-box-content h2 {
-  width:50%;
-  float:left;
-}
-.boxes-box-content h5 {
-  color:#444;
-}
 #block-block-2 {
   display:none;
+ }
+@media (max-width: 979px) {
+  .zone-user-wrapper .menu a {
+    line-height:normal;
+  }
 }
