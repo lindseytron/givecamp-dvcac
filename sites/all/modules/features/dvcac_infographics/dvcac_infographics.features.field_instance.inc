@@ -51,6 +51,44 @@ function dvcac_infographics_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-infographic-field_source'
+  $field_instances['node-infographic-field_source'] = array(
+    'bundle' => 'infographic',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_source',
+    'label' => 'Source',
+    'required' => FALSE,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 3,
+    ),
+  );
+
   // Exported field_instance: 'node-infographic-field_stat'
   $field_instances['node-infographic-field_stat'] = array(
     'bundle' => 'infographic',
@@ -95,6 +133,7 @@ function dvcac_infographics_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Explanation');
+  t('Source');
   t('Stat');
   t('Statistic/number.');
   t('Text that will go after the "Stat" number.');
