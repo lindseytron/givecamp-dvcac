@@ -170,6 +170,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
   margin-top: 3em;
 }
 
+.region-content ul, .region-content ol {
+  margin: 0 0 20px 20px;
+}
+
+.region-content ul li, .region-content ol li { margin-bottom: 10px; }
+    .region-content ul li { list-style-type: disc; }
+    .region-content ol li { list-style-type: decimal; }
 
 /* Banner Slideshow */
 
@@ -178,12 +185,13 @@ input[type='button']:active, input[type='submit']:active, button:active, .button
 }
 #views_slideshow_cycle_main_banner_slideshow-block .views-field-field-text {
   position: absolute;
-  bottom: 0;
+  right: 0;
   background: rgba(255,255,255,.8);
-  width: 50%;
+  width: 25%;
   line-height: 1em;
   padding: 1em 2em;
   font-size: 1.5em;
+  bottom: 20px;
 }
 
 
