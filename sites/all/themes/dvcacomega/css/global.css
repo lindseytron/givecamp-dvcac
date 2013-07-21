@@ -240,7 +240,7 @@ footer ul.menu li a:focus {
 
 /* Share This widget */
 
-#block-sharethis-sharethis-block { margin: 1em; }
+.not-front #block-sharethis-sharethis-block { margin: 1em; }
 
 /* Home Page node stuff hiding (Temporary fix) */
 body.front #page-title,
