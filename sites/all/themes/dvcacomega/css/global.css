@@ -78,7 +78,6 @@ h5, h6 {
 }
 .front #zone-content .views-field-title {
   font-weight:400;
-  font-size:110%;
 }
 .front #zone-content .views-field-title a {
   font-weight:400;
@@ -90,17 +89,6 @@ h5, h6 {
 .front #zone-content .views-row {
   padding:15px;
   border-bottom:1px solid #f2f2f2;
-}
-.front #zone-content .views-row:hover,
-.front #zone-content .views-row:focus {
-  background-color:#f9f9f9;
-}
-.front #zone-content #block-views-events-block .views-field-title {
-  font-weight:bold;
-  font-size:95%;
-}
-.front #zone-content #block-views-events-block .views-field-title a {
-  font-weight:bold;
 }
 .front #zone-content #block-views-events-block .views-field-field-event-date {
   font-size:85%;
