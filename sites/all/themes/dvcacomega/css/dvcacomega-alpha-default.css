@@ -93,6 +93,7 @@ a:link {
       width: 78%;
       margin: 0 auto;
       text-align: center;
+      text-transform: uppercase;
     }
       #block-boxes-banner-call-to-actions .primary-call-to-action .button {
         text-transform: uppercase;
