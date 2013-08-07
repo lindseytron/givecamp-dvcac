@@ -21,7 +21,11 @@ function dvcacomega_preprocess_region(&$vars) {
   }
 }
 
+function_dvcacomega_file_icon($variables) {
+  $file = $variables['file'];
+  $icon_directory = drupal_get_path('theme', 'dvcacomega') . '/images/icons';
 
-
-
-
+  $mime = check_plain($file->filemime);
+    $icon_url = file_icon_url($file, $icon_directory);
+    return '<img alt="" class="file-icon" src="' . $icon_url . '" title="' . $mime . '" />';
+}
